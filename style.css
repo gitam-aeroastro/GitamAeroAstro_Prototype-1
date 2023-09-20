@@ -36,6 +36,7 @@ body {
 .nav-logo-img {
     max-width: 330px;
     max-height: 100px;
+    /*Animate this: Up and down*/
 }
 
 .nav-list {

@@ -1,0 +1,9 @@
+.welcome {
+    color: #01bffd;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Kelson ExtraBold';
+    font-weight: normal;
+    margin: 100px 50px;
+    /*Animate This: Up and Down*/
+}
