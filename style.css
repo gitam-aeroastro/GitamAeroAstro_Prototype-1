@@ -12,7 +12,7 @@ html {
 body {
     margin: 0;
     font-family: 'Kelson Regular';
-    background-image: url('AnimatedBG.gif'); 
+    background-image: url('media/AnimatedBG.gif'); 
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -22,7 +22,7 @@ body {
     height: 100%;
     overflow-y: scroll;
 }
-
+/*Nav Bar*/
 .nav-bar {
     display: flex;
     flex-flow: row wrap;
@@ -47,7 +47,7 @@ body {
     padding: 20px 1px;
 }
 .link {
-    padding: 40px 70px;
+    padding: 40px 50px;
     color: #ffffff;
     font-family: 'Kelson Regular';
     font-style: normal;
@@ -57,3 +57,4 @@ body {
     background-color: #ffffff;
     color: #000;
 }
+/*End of Nav Bar*/
