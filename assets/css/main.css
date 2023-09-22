@@ -3,12 +3,12 @@
 }
 
 a {
-  color: #01d3d0;
+  color: #279EFF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #01d3d0;
+  color: #279EFF;
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ section {
   font-size: 48px;
   font-weight: 300;
   margin-bottom: 20px;
-  color: #01d3d0;
+  color: #279EFF;
 }
 
 .section-header p {
@@ -191,13 +191,13 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: #01d3d0;
+  color: #279EFF;
   line-height: 0;
 }
 
 .scroll-top:hover {
   background: #000;
-  color: #01d3d0;
+  color: #279EFF;
 }
 
 .scroll-top.active {
@@ -237,12 +237,12 @@ section {
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: #01d3d0;
+  color: #279EFF;
   font-family: var(--font-secondary);
 }
 
 .header .logo h1 span {
-  color: #01d3d0;
+  color: #279EFF;
   font-weight: 500;
 }
 
@@ -250,7 +250,7 @@ section {
 .header .btn-getstarted:focus {
   font-size: 16px;
   color: #000;
-  background: #01d3d0;
+  background: #279EFF;
   padding: 8px 23px;
   border-radius: 4px;
   transition: 0.3s;
@@ -260,7 +260,7 @@ section {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: #000;
-  background: #18645e;
+  background: #279EFF;
 }
 
 @media (max-width: 1279px) {
@@ -304,7 +304,7 @@ section {
     justify-content: space-between;
     padding: 14px 20px;
     font-family: var(--font-secondary);
-    text-decoration-color: #01d3d0;
+    text-decoration-color: #279EFF;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
@@ -345,7 +345,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #01d3d0;
+    color: #279EFF;
   }
 
   .navbar .dropdown a:hover:before,
@@ -358,7 +358,7 @@ section {
   .navbar .dropdown .active,
   .navbar .dropdown .active:focus,
   .navbar .dropdown:hover>a {
-    color: #01d3d0;
+    color: #279EFF;
     background: #000;
   }
 
@@ -396,7 +396,7 @@ section {
   .navbar .dropdown ul .active,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #01d3d0;
+    color: #279EFF;
     background: #000;
   }
 
