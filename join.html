@@ -30,21 +30,56 @@
         <link href="assets/css/main.css" rel="stylesheet">
     </head>
 <body>
-    <div class="container-fluid">
-        <form action="">
-            <div class="row">
-                <div class="col"><label class="form-label" for="Name">Name:</label></div>
-                <div class="col"><input class="form-control" type="text" name="Name" id="Name"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="form-label" for="email">Email:</label></div>
-                <div class="col"><input class="form-control" type="email" name="email" id="email"></div>
-            </div>
-            <div class="row">
-                <input type="submit" value="Submit">
-            </div>
-        </form>
-    </div>
+    <!--Header-->
+    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            
+            <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+                <img src="assets/images/logo.png" alt="">
+                <h1>GITAM Aero Astro Club<span>.</span></h1>
+            </a>
+            <nav id="nav" class="navbar">
+                <ul>
+                    <li class="active"><a href="#"><span>Home</span></a></li>
+                    <li><a class="nav-link scrollto" href="index.html#about">About Us</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#events">Events</a></li>
+                    <li><li class="dropdown"><a href="#"><span>Teams</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="robusta.html">Team ROBust</a></li>
+                            <li><a href="stargazers.html">Team StarGazers</a></li>
+                            <li><a href="dev_team.html">Developers Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link" href="news.html">News</a></li>
+                    <li><a class="nav-link" href="blogs.html">Blogs</a></li>
+                    <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#contact">Contact Us</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toogle d-none"></i>
+            </nav>
+
+            <a class="btn-generated" target="_blank" href="join.html">Join Us</a>
+        </div>
+    </header>
+    <!--End of Header--> 
+    <!--Start of Form-->
+    <section id="form">
+        <div class="container-fluid">
+            <form action="post">
+                <div class="row">
+                    <div class="col"><label class="form-label" for="Name">Name:</label></div>
+                    <div class="col"><input class="form-control" type="text" name="Name" id="Name"></div>
+                </div>
+                <div class="row">
+                    <div class="col"><label class="form-label" for="email">Email:</label></div>
+                    <div class="col"><input class="form-control" type="email" name="email" id="email"></div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="footer-content">
@@ -110,16 +145,15 @@
                         </div>
                         <div class="credits">
                             Designed by <a href="#">StellaX Technologies</a>
-                        </div>
                     </div>
+                </div>
 
-                    <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-                        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                    </div>
+                <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>
