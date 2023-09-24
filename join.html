@@ -32,15 +32,16 @@
 <body>
     <!--Header-->
     <header id="header" class="header fixed-top" data-scrollto-offset="0">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
-            
-            <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-                <img src="assets/images/logo.png" alt="">
-                <h1>GITAM Aero Astro Club<span>.</span></h1>
+    <div class="container-fluid d-flex justify-content-between">
+        <div class="col">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="media/GAACLogoforNavBar.PNG" alt="">
             </a>
+        </div>
+        <div class="col align-items-center justify-content-end">
             <nav id="nav" class="navbar">
-                <ul>
-                    <li class="active"><a href="#"><span>Home</span></a></li>
+                <ul class="">
+                    <li class=""><a href="index.html"><span>Home</span></a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About Us</a></li>
                     <li><a class="nav-link scrollto" href="index.html#events">Events</a></li>
                     <li><li class="dropdown"><a href="#"><span>Teams</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -54,32 +55,35 @@
                     <li><a class="nav-link" href="blogs.html">Blogs</a></li>
                     <li><a class="nav-link" href="gallery.html">Gallery</a></li>
                     <li><a class="nav-link scrollto" href="index.html#contact">Contact Us</a></li>
+                    <li><a class="btn-generated active" target="_blank" href="join.html">Join Us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toogle d-none"></i>
             </nav>
 
-            <a class="btn-generated" target="_blank" href="join.html">Join Us</a>
         </div>
+    </div>
     </header>
     <!--End of Header--> 
     <!--Start of Form-->
-    <section id="form">
-        <div class="container-fluid">
-            <form action="post">
-                <div class="row">
-                    <div class="col"><label class="form-label" for="Name">Name:</label></div>
-                    <div class="col"><input class="form-control" type="text" name="Name" id="Name"></div>
-                </div>
-                <div class="row">
-                    <div class="col"><label class="form-label" for="email">Email:</label></div>
-                    <div class="col"><input class="form-control" type="email" name="email" id="email"></div>
-                </div>
-                <div class="row">
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </div>
-    </section>
+    <main id="main" class="pt-5">
+        <section class="form m-md-5 mt-5" id="form">
+            <div class="container-fluid">
+                <form action="post">
+                    <div class="row m-md-5">
+                        <div class="col-1"><label class="form-label" for="Name">Name:</label></div>
+                        <div class="col-md-10"><input class="form-control" type="text" name="Name" id="Name"></div>
+                    </div>
+                    <div class="row m-md-5">
+                        <div class="col-1"><label class="form-label" for="email">Email:</label></div>
+                        <div class="col-md-10"><input class="form-control" type="email" name="email" id="email"></div>
+                    </div>
+                    <div class="btn m-5">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="footer-content">
