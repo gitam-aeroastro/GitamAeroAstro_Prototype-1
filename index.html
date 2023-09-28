@@ -158,7 +158,7 @@
                                     April 5 <small>2022</small>
                                 </div>
                                 <div class="timeline-content">
-                                    <i class="icon-attachment"></i>
+                                    <i class="icon-attachment"><img src="assets/img/GAACLogoShort.png" alt="" class="img-fluid icon"></i>
                                     <h4>Rocketry 101</h4>
                                     <p>An interactive workshop taking participants on an exciting aerospace journey. It covers the fundamentals of rocketry, hands-on DIY projects, and introduces the use of Open-Rocket software. Teams assemble rockets and proudly showcase their creations on stage.</p>
                                 </div>
@@ -169,7 +169,7 @@
                                     August 14 <small>2022</small>
                                 </div>
                                 <div class="timeline-content">
-                                    <i class="icon-code"></i>
+                                    <i class="icon-code"><img src="assets/img/GAACLogoShort.png" alt="" class="img-fluid icon"></i>
                                     <h4>Rocketry 2.0</h4>
                                     <p>
                                         Building upon the first workshop, Rocketry 2.0 offers a comprehensive overview of rockets and their subsystems. Participants learn about graphics interchange formats (GIFs) and explore rocket aerodynamics and air interactions through illustrations.
@@ -182,7 +182,7 @@
                                     November 8 <small>2022</small>
                                 </div>
                                 <div class="timeline-content">
-                                    <i class="icon-turned_in_not"></i>
+                                    <i class="icon-turned_in_not"><img src="assets/img/GAACLogoShort.png" alt="" class="img-fluid icon"></i>
                                     <h4>Daina's Eve</h4>
                                     <p>GAAC's Stargazers Team hosted a remarkable astronomical event at GITAM University. They used a telescope to provide an enlightening experience, highlighting the wonders of the Blood Moon lunar eclipse.</p>
                                 </div>
@@ -193,7 +193,7 @@
                                     March 3-5 <small>2023</small>
                                 </div>
                                 <div class="timeline-content">
-                                    <i class="icon-directions"></i>
+                                    <i class="icon-directions"><img src="assets/img/ForstHackLogo.webp" alt="" class="img-fluid"></i>
                                     <h4>FrostHack 2k23</h4>
                                     <p>Hosted by IIT Mandi, team ROBusta participated in a 48-hour hackathon. Their project focused on developing an e-commerce website for athlete shoe.</p>
                                     
@@ -214,42 +214,14 @@
                     
                             <div class="timeline-row">
                                 <div class="timeline-time">
-                                    Dec 18
+                                    August 23 <small>2023</small>
                                 </div>
                                 <div class="timeline-content">
-                                    <i class="icon-code"></i>
-                                    <h4>Admin Dashboard!</h4>
+                                    <i class="icon"><img src="assets/img/GAACLogoShort.png" alt="" class="img-fluid icon"></i>
+                                    <h4>Lunar Odyssey</h4>
                                     <p>
-                                        Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar.
+                                        On August 23, ISRO's Chandrayaan 3 made a historic landing. The event was broadcasted in the VDC auditorium, allowing everyone to witness this momentous occasion.
                                     </p>
-                                    <div class="thumbs">
-                                        <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin">
-                                        <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="Maxwell Admin">
-                                        <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
-                                    </div>
-                                    <div class="">
-                                        <span class="badge badge-pill">Ecommerce</span>
-                                        <span class="badge badge-pill">CRM</span>
-                                    </div>
-                                </div>
-                            </div>
-                    
-                            <div class="timeline-row">
-                                <div class="timeline-time">
-                                    Dec 21
-                                </div>
-                                <div class="timeline-content">
-                                    <i class="icon-attachment"></i>
-                                    <h4>Admin Template!</h4>
-                                    <p>Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
-                                    <div class="thumbs">
-                                        <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Maxwell Admin">
-                                        <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
-                                    </div>
-                                    <div class="">
-                                        <span class="badge badge-pill">Orders</span>
-                                        <span class="badge badge-pill">Sales</span>
-                                    </div>
                                 </div>
                             </div>
                     
@@ -266,10 +238,10 @@
 
 
 
-            <!--Gallery Section-->
+            <!--Gallery Section
             <section id="gallery">
 
-            </section>
+            </section>-->
 
             <!--Contact-Us-->
             <section id="contact" class="contact">
@@ -301,7 +273,7 @@
                         </div>
                         <div class="form-group row">
                           <label class="form-label col-2 m-3" for="message">Message:</label>
-                          <textarea class="form-control col m-3" name="message" id="message" rows="15" placeholder="Please type your message here"></textarea>
+                          <textarea class="form-control col m-3" name="message" id="message" rows="15" placeholder="Please type your message here" required></textarea>
                         </div>
                         <button type="submit" class="btn me-5 w-100 bg-secondary text-black" value="Submit">Submit</button>
                     </form>
@@ -460,43 +432,6 @@
         <script src="assets/vendor/php-email-form/validate.js"></script>
 
         <script src="assets/js/main.js"></script>
-
-        <script>
-            const constraints = {
-                name: {
-                    presence: { allowEmpty: false }
-                },
-                email: {
-                    presence: { allowEmpty: false },
-                    email: true
-                },
-                message: {
-                    presence: { allowEmpty: false }
-                }
-            };
-         
-            const form = document.getElementById('contact-form');
-         
-            form.addEventListener('submit', function (event) {
-              const formValues = {
-                  name: form.elements.name.value,
-                  email: form.elements.email.value,
-                  message: form.elements.message.value
-              };
-         
-              const errors = validate(formValues, constraints);
-         
-              if (errors) {
-                event.preventDefault();
-                const errorMessage = Object
-                    .values(errors)
-                    .map(function (fieldValues) { return fieldValues.join(', ')})
-                    .join("\n");
-         
-                alert(errorMessage);
-              }
-            }, false);
-         </script>
 
     </body>
 </html>

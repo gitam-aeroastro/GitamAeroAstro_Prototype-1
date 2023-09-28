@@ -15,32 +15,12 @@
         $email = $_POST('email');
         $contactNo = $_POST('contactNo');
         $linkDIN = $_POST('LinkdinProfile');
-        $Msg = $_POST('message');
-    
-    if (empty($name)) {
-        $errors[] = 'Name is empty';
-    }
+        $to = "aeroastro_vzg@gitam.in";
+        $subject = "Message From GITAM Aero Astro Website";
+        $Msg = str_replace("\n.", "\n..", $_POST('message'));
+        $headers = 
 
-    if (empty($email)) {
-        $errors[] = 'Email is empty';
-    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'Email is invalid';
-    }
-
-    if (empty($message)) {
-        $errors[] = 'Message is empty';
-    }
-    if(empty($contactNo)) {
-        $TorFContact = false;
-    }
-    if(empty($linkDIN)) {
-        $TorFLinkDin = false ;
-    }
-    if (!empty($errors)) {
-        $allErrors = join('<br/>', $errors);
-        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
-    }
-    
+        $mail = mail($to, $subject, $Msg);
     }
     
     ?>
