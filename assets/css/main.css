@@ -768,10 +768,9 @@ section {
 .hero-animated {
   width: 100%;
   min-height: 50vh;
-  background: url("../img/hero-bg.png") center center;
-  background-size: cover;
+  background: no-repeat center center;
   position: relative;
-  padding: 120px 0 60px;
+  padding: 120px 60px;
 }
 
 .hero-animated h2 {
@@ -795,7 +794,7 @@ section {
 
 .hero-animated .animated {
   margin-bottom: 60px;
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
 @media (min-width: 992px) {
